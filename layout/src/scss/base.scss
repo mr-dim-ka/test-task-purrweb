@@ -1,0 +1,34 @@
+[class*="-ibg"] {
+	position: relative;
+	img {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		object-fit: cover;
+	}
+}
+[class*="-ibg_contain"] {
+	img {
+		object-fit: contain;
+	}
+}
+// Шрифт Montserrat
+%ff-mont {
+	font-family: "Montserrat";
+}
+// Шрифт Noto Sans
+%ff-noto {
+	font-family: "Noto Sans";
+}
+// Шрифт Avenir
+%ff-avenir {
+	font-family: Avenir;
+}
+// фон и размытие декора блоков
+%bg-blur {
+	background: linear-gradient(12.08deg, #f101bf 2.82%, #0066ff 97.06%);
+	filter: blur(125px);
+	transform: rotate(5.78deg);
+}
